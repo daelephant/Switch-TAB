@@ -1,0 +1,27 @@
+{
+   "author": "ELE",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_title": "开启轮播页面"
+   },
+   "description": "允许每个界面具有可定制计时器的旋转轮播的扩展.",
+   "icons": {
+       "16": "images/icon16.png",
+       "48": "images/icon48.png",
+       "128": "images/icon128.png"
+   },
+//   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuu1IcY5AYrGDQ5hW97jWN4NdnGHJbSfAawr/WrnUbmdvks/4opO47/f2TjwRIxmZlX7FW7X37lnBIu8WasfYbPOglcJ8aOV50rQIT5WoQH6+bkKD32U2MRWICgi7/2Zt9cfBuFpC8QAYyvHE5RAkHJ6lNqrcxorivBw+/8OdYfZ1jPBRN7Aktz5XyZnqxY3VsSqOR4V8xVtt6tg6AQlWz7QlAltPt4gSlyvF4dm35Qq1GdOC//H4SLrZ6jYIwPR86NaZP9i+EbHdTA2o5EoScSA6G8P3VUQjHXEeL7jyh2NHaPt4IoB8Pnnqb/rAYiEM2OBnv51z6lFka3y774CvAQIDAQAB",
+   "manifest_version": 2,
+   "name": "轮播界面",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "short_name": "轮播界面",
+   "version": "0.1.1"
+}

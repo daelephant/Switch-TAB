@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="./layui/css/layui.css">
+	<title>瑞铠轮播界面设置</title>
+	<style>
+	#tabOptions {
+		border:1px solid black;
+		border-radius: 8px;
+	}
+	.tabOptions {
+		overflow: hidden;
+		padding: 2px 4px;
+		height:30px;
+		line-height: 30px;
+		border-radius: 8px;
+	}
+	.tabOptions:hover {
+		background-color: #99CCFF;
+	}
+	div.tabOptions > * {
+	    vertical-align: middle;
+	}
+	.tabOptions input {
+		float: right;
+		display:inline-block;
+	}
+	.tabOptions span.tabName {
+		float: left;
+		display:inline-block;
+	}
+	.tabOptions span.inputDesc {
+		float:right;
+		display:inline-block;
+		margin-right: 10px;
+	}
+	</style>
+</head>
+
+<body>
+<script src="./layui/lay/dest/layui.all.js"></script>
+<ul class="layui-nav" lay-filter="">
+<div >
+	<i class="layui-icon" style="font-size: 30px;color: #1E9FFF;">&#xe614;</i><span class="layui-bg-molv" ><label  for="rotate_seconds">每个标签的默认停留秒数：</label></span>
+		<input id="rotate_seconds" type="number" min="1" value="3" style="width:50px"/>
+	</div>
+</ul>
+	<div id="tabOptions"></div>
+<div>所有选项以秒为单位.</div>
+<div style="margin-left: 45%"><button class="layui-btn" id="save" >保存</button></div>
+<div><span id="status"></span></div>
+
+
+<div style="margin-left: 45%;position:fixed;bottom:0;font-size:.10em">中电瑞铠技术部<a href="http://www.ri-guard.com/" target="_blank">@中电瑞凯</a><div>
+</body>
+<script src="options.js"></script>
+
+</html>
