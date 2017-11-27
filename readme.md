@@ -1,11 +1,20 @@
-## Synopsis
+## 大纲
 
-Carousel is a Chrome Extension which rotates through all normal tabs in the initial window. It allows for a custom rotation speed as well as options to set a specific time spent on each tab.
+这是一个Chrome扩展，它通过初始窗口中的选项卡轮播chrom的Tab。
+允许自定义轮播速度以及设置每个Tab所停留的特定时间的选项。
 
-## Motivation
+## 想法
+作为首次构建Chrome扩展。模仿图灵chrome插件，作为我的new thing
 
-This was built as a first attempt at building a Chrome extension. There was an existing library available with similar functionality which served as my inspiration, but the idea was simple enough I figured it would be more helpful to start from scratch and learn about Chrome extensions in general.
+## 使用
+1、通过单击右上方的扩展图标，启动
 
-## Usage
+2、再次点击停止
 
-The Carousel is started and stopped by clicking the extension icon in the top right. The rotation timing is customized on the options page. There will be an option available for all normal tabs that are open when options is opened. When the active tab is chrome tab (extensions page, options, new tab, etc.) the carousel automatically pauses.
+3、右击图标进入-》选项，设置具体Tab停留时长
+
+
+
+![image.png](http://upload-images.jianshu.io/upload_images/2926249-9e28ff3c39fd0833.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
